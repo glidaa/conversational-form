@@ -125,7 +125,7 @@
 			</section>
 
 			<section id="form" role="form">
-				<form id="test-form">
+				<form id="cf-form" method="post" action="https://api.formbucket.com/f/buk_gszCla02Bw0EEvngQMG47gHR">
 					<fieldset>
 						<label for="name">What's your name?</label>
 						<input required cf-questions="Hello, What's your name? 😊" type="text" class="form-control" name="name" id="name">
@@ -176,7 +176,7 @@
 
 					<fieldset>
 						<label for="email">Email</label>
-						<input pattern=".+\@.+\..+" cf-error="E-mail not correct" cf-questions="If you want to be sent the final research report, please give me your email." type="email" class="form-control" name="email" id="your-email">
+						<input pattern=".+\@.+\..+" cf-error="E-mail not correct" cf-questions="If you want to be sent the final research report, please tell me your email." type="email" class="form-control" name="email" id="your-email">
 					</fieldset>
 
 					<fieldset style="display: none;">
@@ -204,20 +204,9 @@
 			</section>
 		</main>
 
-		<script src="var $form = $('form#test-form'),
-    url = 'https://script.google.com/macros/s/AKfycbx4Rpi2CMpx6f5PPJE9gOmenquVRKULxnXL2OH-FE5vvjfiI_M/exec'
-
-$('#submit-form').on('click', function(e) {
-  e.preventDefault();
-  var jqxhr = $.ajax({
-    url: url,
-    method: "GET",
-    dataType: "json",
-    data: $form.serializeObject()
-  }).success(
-    // do something
-  );
-})"></script>
+		<script>
+		
+		</script>
 
 		<script async defer src="https://buttons.github.io/buttons.js"></script>
 	</body>
