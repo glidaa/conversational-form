@@ -123,10 +123,15 @@
 					</footer>
 				</article>
 			</section>
-
+			
 			<section id="form" role="form">
+				<div id="formscroll" style="position:relative;overflow: scroll;">
+					<br>
+					<br>
+					<br>
+					<br>
 				<form id="cf-form" method="post" action="https://api.formbucket.com/f/buk_gszCla02Bw0EEvngQMG47gHR">
-					<fieldset>
+					<fieldset><br>
 						<label for="name">What's your name?</label>
 						<input required cf-questions="Hello, What's your name? 😊" type="text" class="form-control" name="name" id="name">
 					</fieldset>
@@ -138,7 +143,7 @@
 							<input cf-questions="Great to meet you, {previous-answer}! I'm a web form the Michael is using to collect the information for this report, Can I start with your opinion of the most important technology build for 2028?|Great, {previous-answer}. I am a web form that Michael Castleman has developed to help you complete the answers to the research. You can turn me off by pressing the disable button. <br> OK I have eight questions. Can I start with your opinion of the most important technology build for 2028?" type="radio" name="1" id="1-1" value="AI ">
 							AI 
 						</label>
-						</div><br>
+						</div>
 						<div class="radio">
 						<label>
 							<input type="radio" name="1" id="1-2" value="Expanded data analysis">
@@ -162,7 +167,7 @@
 								<input type="radio" name="1" id="1-5" value="Predictive analytics">
 								Predictive analytics
 							</label>
-						</div><br>
+						</div>
 						<div class="radio">
 							<label>
 								<input type="radio" name="1" id="1-6" value="Marketing Technologies">
@@ -230,7 +235,7 @@
 							<input type="checkbox" name="6" id="6-3" value="IoT">
 							IoT house
 						</label>
-						</div><br>
+						</div>
 						<div class="checkbox">
 							<label>
 								<input type="checkbox" name="6" id="6-4" value="Remote work support">
@@ -242,18 +247,18 @@
 								<input type="checkbox" name="6" id="6-5" value="Complete Medical History ">
 								Real time credit card 
 							</label>
-						</div><br>
+						</div>
 						<div class="checkbox">
 							<label>
 								<input type="checkbox" name="6" id="6-6" value="Drone information on a house’s land">
 								Drone
 							</label>
-						</div><br>
+						</div>
 						
 					</fieldset>
 					<fieldset>
 						<label for="7">What are you most worried about being unprepared for as a company over the next ten years?</label>
-						<select cf-questions="Two more questions...What are you most worried about being unprepared for as a company over the next ten years?" name="7" id="7" class="form-control">
+						<select cf-questions="Three more..What are you most worried about being unprepared for as a company over the next ten years?" name="7" id="7" class="form-control">
 							<option></option>
 							<option>Startups disrupting with new models</option>
 							<option>Overseas competitors</option>
@@ -265,7 +270,7 @@
 					</fieldset>
 					
 					<fieldset>
-						<label for="8"> Last question, let me ask an open question, what do you believe the future holds for work in insurance?</label>
+						<label for="8"> Last questions, let me ask an open question, what do you believe the future holds for work in insurance?</label>
 						<input cf-questions=" Last questions, let me ask an open question, what do you believe the future holds for work in insurance?" type="text" class="form-control" name="8" id="8">
 					</fieldset>
 
@@ -293,8 +298,9 @@
 
 					<button type="submit" class="btn btn-default">Submit</button>
 				</form>
+						</div>
 			</section>
-
+		
 			<section id="cf-context" role="cf-context" cf-context>
 				
 			</section>
